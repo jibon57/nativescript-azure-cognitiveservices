@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-azure-cognitiveservices",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "azure-cognitiveservices NativeScript plugin.",
 	"main": "azure-cognitiveservices",
 	"typings": "index.d.ts",
@@ -9,13 +9,11 @@
 			"android": "6.0.0",
 			"ios": "6.0.1"
 		},
-		"hooks": [
-			{
-				"type": "after-prepare",
-				"script": "scripts/after-prepare.js",
-				"inject": true
-			}
-		]
+		"hooks": [{
+			"type": "after-prepare",
+			"script": "scripts/after-prepare.js",
+			"inject": true
+		}]
 	},
 	"repository": {
 		"type": "git",

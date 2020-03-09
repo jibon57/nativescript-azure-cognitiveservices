@@ -55,6 +55,12 @@ export class HomeComponent implements OnInit {
             let recordFile = res.object.get('recordFile');;
             console.log(recordFile);
             t.playFile(recordFile);
+        });
+
+        this.azureService.on("error", function (res) {
+            t.azureService.off("error");
+            let msg = res.object.get('msg');;
+            console.log(msg);
         })
 
         this.azureService.startRecorder();

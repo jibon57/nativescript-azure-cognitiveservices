@@ -48,11 +48,13 @@ audioDataSaveAsMP3(audioData: any, fileName?: string): Promise<string>;
 ```
 
 **Require Permission:**
-*Android:
+
+Android:
 ```javascript
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
 ```
-*iOS:
+
+iOS:
 ```javascript
 <key>NSMicrophoneUsageDescription</key>
 <string>Recording Practice Sessions</string>

@@ -10,6 +10,8 @@
 * Text to Speech
 * WAV recorder
 
+**Note**: When you will use this service that time UI will keep block until any result will come. I'll recommend to use [NativeScript Worker Loader](https://github.com/NativeScript/worker-loader) to run the service in background
+
 
 ## Installation
 

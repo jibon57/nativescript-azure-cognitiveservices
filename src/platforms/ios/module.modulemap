@@ -1,0 +1,6 @@
+framework module MicrosoftCognitiveServicesSpeech {
+  umbrella header "SPXSpeechApi.h"
+
+  export *
+  module * { export * }
+}

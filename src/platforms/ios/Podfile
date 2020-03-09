@@ -1,0 +1,2 @@
+platform :ios, '9.3'
+pod 'MicrosoftCognitiveServicesSpeech-iOS', '~> 1.9.0'
